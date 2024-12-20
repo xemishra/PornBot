@@ -1,4 +1,5 @@
 from pyrogram import Client
+from Pixelroid import api_id, api_hash, bot_token
 
 class PixelroidBot:
     def __init__(self, api_id: int, api_hash: str, bot_token: str):
